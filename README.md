@@ -35,15 +35,15 @@ The output to the Serial Monitor is shown below. When the NTP time is received, 
 displayed along with NTP error messages. The primary display is designed to be a MAX7219 8 x 7 Segment module. The
 code can be modified, of course, to use any display you choose. It's up to you...
 
- 10:46:18 Fri 09-Feb-2018
- 10:46:19 Fri 09-Feb-2018
- 10:46:20 Fri 09-Feb-2018
- 10:46:21 Fri 09-Feb-2018
- 10:46:22 Fri 09-Feb-2018 * NTP Fraction: 198 mS - NTP Round-trip: 14 mS
- 10:46:23 Fri 09-Feb-2018
- 10:46:24 Fri 09-Feb-2018
- 10:46:25 Fri 09-Feb-2018
- 10:46:26 Fri 09-Feb-2018
+10:46:18 Fri 09-Feb-2018
+10:46:19 Fri 09-Feb-2018
+10:46:20 Fri 09-Feb-2018
+10:46:21 Fri 09-Feb-2018
+10:46:22 Fri 09-Feb-2018 * NTP Fraction: 198 mS - NTP Round-trip: 14 mS
+10:46:23 Fri 09-Feb-2018
+10:46:24 Fri 09-Feb-2018
+10:46:25 Fri 09-Feb-2018
+10:46:26 Fri 09-Feb-2018
 
 A simple class is provided to communicate with the MAX7219 8 x 7 Segment LED display using Bit-Bang Serial
 
