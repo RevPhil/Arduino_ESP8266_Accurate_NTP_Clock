@@ -43,7 +43,7 @@ code can be modified, of course, to use any display you choose. It's up to you..
 10:46:23 Fri 09-Feb-2018
 10:46:24 Fri 09-Feb-2018
 10:46:25 Fri 09-Feb-2018
-10:46:26 Fri 09-Feb-2018
+10:46:26 Fri 09-Feb-2018 
 
 A simple class is provided to communicate with the MAX7219 8 x 7 Segment LED display using Bit-Bang Serial
 
