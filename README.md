@@ -13,7 +13,7 @@ Change the "const char *ntpServer = "time.windows.com";"  NTP server entries in 
 to time servers close to your location.
 
 The DS3231 (or similar) RTC is used to generate a 1 Pulse Per Second output to increment the sysClock variable.
-The 1PPS signal is really a 1Hx square wave but we only use the falling edge so it's 1PPS to us.
+The 1PPS signal is really a 1Hz square wave but we only use the falling edge so it's 1PPS to us.
 The RTC 1PPS output is set when the seconds are written to the RTC so we can control when the interrupt occurs.
 The FALLING edge of the 1PPS output calls the rtcIntISR() sub-routine which increments sysClock and sets
 outputTimestampEnable which in turn triggers the display of the current time.
@@ -48,10 +48,3 @@ code can be modified, of course, to use any display you choose. It's up to you..
 A simple class is provided to communicate with the MAX7219 8 x 7 Segment LED display using Bit-Bang Serial
 
 ALL ESP8266 PIN NUMBERS ARE THE GPIO NUMBERS!
-
-(C) Copyright Phil Morris 2018 <www.lydiard.plus.com>
-
-No warranty or guarantee either actual or implied as to the accuracy or efficacy of this software is provided.
-You may copy, modify and distribute this software for personal use as long as this text header remains intact!
-
-ANY AND ALL COMMERCIAL USE IS PROHIBITED!
