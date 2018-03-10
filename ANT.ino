@@ -47,7 +47,7 @@
 
    ALL ESP8266 PIN NUMBERS ARE THE GPIO NUMBERS!
 
-   (C) Copyright Phil Morris 2018 <www.lydiard.plus.com>
+   (C) Copyright Reverend Phil Morris
 
    No warranty or guarantee either actual or implied as to the accuracy or efficacy of this software is provided.
    You may copy, modify and distribute this software for personal use as long as this text header remains intact!
