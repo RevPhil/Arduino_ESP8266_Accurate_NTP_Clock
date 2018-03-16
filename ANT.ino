@@ -308,8 +308,7 @@ uint32_t sendNTPrequest(uint8_t index)
   ntpRoundtrip = millis() - ntpRoundtrip;
   if (_timeOut) return 3;
   if (packetSize != NTP_PACKET_SIZE) return 4;
-  // we got a valid response packet so carry on
-  ntpClient.flush();
+  // we got a valid response packet so carry on and
   // extract the timestamp and fractional seconds. Convert NTP timestamp to UNIX
   while (ntpClient.available()) ntpClient.read(packetBuffer, 48);
   ntpTime = readNtpBuffer(packetBuffer, SVR_TIME_SECS) - NTP_70_YEARS;
