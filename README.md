@@ -48,3 +48,5 @@ code can be modified, of course, to use any display you choose. It's up to you..
 A simple class is provided to communicate with the MAX7219 8 x 7 Segment LED display using Bit-Bang Serial
 
 ALL ESP8266 PIN NUMBERS ARE THE GPIO NUMBERS OR NODEMCU PIN NUMBERS!
+
+(C) 2018 Rev Phil Morris
